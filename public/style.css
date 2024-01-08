@@ -1,0 +1,30 @@
+:root{
+    --ff-primary: 'Cormorant Garamond', serif;
+
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+
+    --fs-100: 16px;
+    --fs-200: 24px;
+    --fs-300: 32px;
+    --fs-400: 48px;
+
+
+    --clr-primary: hsl(256, 94%, 7%);
+    --clr-primary-lighter: hsl(256, 94%, 14%);
+}
+
+*{
+    font-family: var(--ff-primary);
+}
+
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+.fw-700{
+    font-weight: var(--fw-700);
+}
