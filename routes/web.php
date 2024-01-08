@@ -20,6 +20,7 @@ Route::get('/',[HomeController::class,'index']);
 
 Route::get('/articles',[HomeController::class,'indexBlogs']);
 
+
 Route::get('/chime',[UserController::class,'show'])->middleware('auth');
 
 Route::get('/chime/login',[UserController::class,'login'])->name('login');
